@@ -17,7 +17,7 @@ const plants = [
     video: '/Videos/tulsi.mp4',
     uses: 'Boosts immunity, relieves cold and stress.',
     qualities: 'Anti-inflammatory, immunity booster, stress reliever.',
-    img: '/public/Tulsi.png',
+    img: '/Tulsi.png',
   },
   {
     name: 'Ashwagandha',
@@ -25,7 +25,7 @@ const plants = [
     video: '/Videos/ashwagandha.mp4',
     uses: 'Reduces stress, increases energy, boosts testosterone.',
     qualities: 'Adaptogen, rejuvenating, energy booster.',
-    img: '/public/Ashwagandha.png',
+    img: '/Ashwagandha.png',
   },
   {
     name: 'Amla',
@@ -33,7 +33,7 @@ const plants = [
     video: '/Videos/amla.mp4',
     uses: 'Hair growth, Vitamin C source, anti-aging.',
     qualities: 'Antioxidant, immunity booster, skin health.',
-    img: '/public/Amla.png',
+    img: '/Amla.png',
   },
   {
     name: 'Giloy',
@@ -41,7 +41,7 @@ const plants = [
     video: '/Videos/giloy.mp4',
     uses: 'Fever reducer, detox, improves digestion.',
     qualities: 'Anti-pyretic, liver protector, immunity booster.',
-    img: '/public/Giloy.png',
+    img: '/Giloy.png',
   },
   {
     name: 'Brahmi',
@@ -49,7 +49,7 @@ const plants = [
     video: '/Videos/brahmi.mp4',
     uses: 'Enhances memory, reduces anxiety.',
     qualities: 'Cognitive enhancer, neuro-protective, calming.',
-    img: '/public/Brahmi.png',
+    img: '/Brahmi.png',
   },
   {
     name: 'Aloe Vera',
@@ -57,7 +57,7 @@ const plants = [
     video: '/Videos/aloe.mp4',
     uses: 'Skin treatment, hair care, digestion aid.',
     qualities: 'Cooling, moisturizing, antioxidant.',
-    img: '/public/Aloe Vera.png',
+    img: '/Aloe Vera.png',
   },
   {
     name: 'Shatavari',
@@ -65,7 +65,7 @@ const plants = [
     video: '/Videos/shatavari.mp4',
     uses: 'Supports reproductive health, especially for women.',
     qualities: 'Hormonal balance, fertility booster.',
-    img: '/public/Shatavari.png',
+    img: '/Shatavari.png',
   },
   {
     name: 'Haritaki',
@@ -73,7 +73,7 @@ const plants = [
     video: '/Videos/haritaki.mp4',
     uses: 'Aids digestion, detoxification.',
     qualities: 'Triphala component, rejuvenating, bowel regulator.',
-    img: '/public/Haritaki.png',
+    img: '/Haritaki.png',
   },
   {
     name: 'Manjistha',
@@ -81,7 +81,7 @@ const plants = [
     video: '/Videos/manjistha.mp4',
     uses: 'Purifies blood, treats acne.',
     qualities: 'Anti-inflammatory, blood purifier.',
-    img: '/public/Manjistha.png',
+    img: '/Manjistha.png',
   },
   {
     name: 'Arjuna',
@@ -89,7 +89,7 @@ const plants = [
     video: '/Videos/arjuna.mp4',
     uses: 'Supports heart health.',
     qualities: 'Cardio tonic, antioxidant.',
-    img: '/public/Arjuna.png',
+    img: '/Arjuna.png',
   },
   {
     name: 'Vasaka',
@@ -97,7 +97,7 @@ const plants = [
     video: '/Videos/vasaka.mp4',
     uses: 'Treats respiratory disorders, cough.',
     qualities: 'Bronchodilator, anti-tussive, anti-inflammatory.',
-    img: '/public/vasaka.png',
+    img: '/vasaka.png',
   }
   // ... [Same 12 plant objects as you already wrote]
 ];
