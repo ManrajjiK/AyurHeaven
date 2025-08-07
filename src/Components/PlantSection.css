@@ -58,7 +58,7 @@ box-shadow: 0 0 25px 2px rgb(195, 233, 59);
   padding: 8px 12px;
   background-color: #f8f3f3;
   color: rgb(10, 10, 10);
-  border: none;
+  border: 2px solid black;
   border-radius: 6px;
   cursor: pointer;
 }
