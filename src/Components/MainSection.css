@@ -1,0 +1,123 @@
+.main-section {
+  padding: 40px 20px;
+  background: #aee471;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+/* hero section..................................................................*/
+.hero {
+  background-image: linear-gradient(to right, #1a7a1a, #82e993, #3fa844);
+  
+  
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center;
+  color:rgb(25, 110, 32);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+box-shadow: 0 0 25px 2px rgb(195, 233, 59);
+
+  
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  font: bold;
+  color: #1e1c24;
+  text-shadow: black;
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes marqueeMove {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee-text {
+  display: inline-block;
+  animation: marqueeMove 20s linear infinite;
+}
+
+
+
+/*...............................................................................*/
+.explore-btn {
+  margin-top: 20px;
+  padding: 10px 24px;
+  background: #6ff56d;
+  color: #2e7d32;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background: #c8e6c9;
+}
+
+/*...............................................................................*/
+
+.categories {
+  margin-top: 60px;
+}
+
+.categories h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #33691e;
+}
+
+.category-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  background: rgb(190, 235, 107);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+  min-width: 150px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  border: #076d0c 1px solid;
+}
+
+.card:hover {
+  background: #dcedc8;
+}
+
+/*...............................................................................*/
+
+
+
+/*...............................................................................*/
+
+
+
+
+/*...............................................................................*/
+
+
+
+
+
+/*...............................................................................*/
