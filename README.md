@@ -1,35 +1,37 @@
-Virtual Herbal Garden
+# Virtual Herbal Garden
 
 A responsive frontend web application that provides detailed and accessible information about medicinal plants. The goal is to promote awareness, education, and appreciation for herbal knowledge while ensuring safe and responsible use.
 
-Features
+---
 
-Searchable and Filterable Plant Database – Easily find plants by common or scientific names.
+## Features
 
-Detailed Plant Profiles – Includes identification, uses, preparation methods, potential side effects, and precautions.
+* **Searchable and Filterable Plant Database** – Easily find plants by common or scientific names.
+* **Detailed Plant Profiles** – Includes identification, uses, preparation methods, potential side effects, and precautions.
+* **Responsive Design** – Optimized for mobile, tablet, and desktop.
+* **Clean and Accessible UI** – Easy to navigate and read.
 
-Responsive Design – Optimized for mobile, tablet, and desktop.
+---
 
-Clean and Accessible UI – Easy to navigate and read.
+## Live Demo
 
-Live Demo
+[Visit the Website](https://ayur-heaven.vercel.app/)
 
-Visit the Website
+---
 
-Tech Stack
+## Tech Stack
 
-HTML5
+* HTML5
+* CSS3 (Flexbox, Grid, Responsive techniques)
+* JavaScript (React)
+* Vite – Fast build tool and development server
+* Local JSON for plant data
 
-CSS3 (Flexbox, Grid, Responsive techniques)
+---
 
-JavaScript (React)
+## Folder Structure
 
-Vite – Fast build tool and development server
-
-Local JSON for plant data
-
-Folder Structure
-
+```
 /public              # Static assets
 /src
   /components        # Reusable UI components
@@ -42,60 +44,79 @@ Folder Structure
   index.jsx          # Entry point
 /package.json        # Project metadata and dependencies
 /README.md           # Project documentation
+```
 
-Installation & Setup
+---
 
-Clone the repository:
+## Installation & Setup
 
+1. Clone the repository:
+
+```bash
 git clone <your-repo-url>
 cd <repo-folder>
+```
 
-Install dependencies:
+2. Install dependencies:
 
+```bash
 npm install
+```
 
-Start the development server:
+3. Start the development server:
 
+```bash
 npm run dev
+```
 
-Open the local development URL shown in your terminal (e.g., http://localhost:5173).
+4. Open the local development URL shown in your terminal (e.g., `http://localhost:5173`).
 
-Usage
+---
 
-Use the search bar to find plants by name.
+## Usage
 
-Click on a plant card to view detailed information.
+* Use the search bar to find plants by name.
+* Click on a plant card to view detailed information.
+* Filter plants by category (e.g., digestive health, skin care, respiratory support).
 
-Filter plants by category (e.g., digestive health, skin care, respiratory support).
+---
 
-Data Sources & Disclaimer
+## Data Sources & Disclaimer
 
-Information is sourced from reputable books, research papers, and verified herbal knowledge platforms.
+* Information is sourced from reputable books, research papers, and verified herbal knowledge platforms.
+* **Disclaimer:** This website is for educational purposes only. Always consult a certified healthcare professional before using any herbal remedy.
 
-Disclaimer: This website is for educational purposes only. Always consult a certified healthcare professional before using any herbal remedy.
+---
 
-Contributing
+## Contributing
 
 Contributions are welcome:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add: <short message>"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request.
 
-Create a new branch: git checkout -b feature/your-feature
+---
 
-Commit your changes: git commit -m "Add: <short message>"
+## License
 
-Push to the branch: git push origin feature/your-feature
+This project is licensed under the **MIT License**.
 
-Open a Pull Request.
+---
 
-License
+## Contact
 
-This project is licensed under the MIT License.
+* **Name:** Your Name
+* **Email:** [kewatmanraj797@gmail.com](mailto:kewatmanraj797@gmail.com)
+* **GitHub:** [ManrajjiK](https://github.com/ManrajjiK)
 
-Contact
+---
 
-Name: Manraj Kewat
+**Short Description:**
 
-Email: kewatmanraj797@gmail.com
+> *Virtual Herbal Garden – A responsive web app built with React and Vite, offering searchable profiles of medicinal plants, including their uses, preparation methods, and precautions.*
 
-GitHub: ManrajjiK
+
+
