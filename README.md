@@ -53,8 +53,8 @@ A responsive frontend web application that provides detailed and accessible info
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone AyurHeaven
+cd AyurHeaven
 ```
 
 2. Install dependencies:
