@@ -1,12 +1,121 @@
-# React + Vite
+# Virtual Herbal Garden
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive frontend web application that provides detailed and accessible information about medicinal plants. The goal is to promote awareness, education, and appreciation for herbal knowledge while ensuring safe and responsible use.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+* **Searchable and Filterable Plant Database** – Easily find plants by common or scientific names.
+* **Detailed Plant Profiles** – Includes identification, uses, preparation methods, potential side effects, and precautions.
+* **Responsive Design** – Optimized for mobile, tablet, and desktop.
+* **Clean and Accessible UI** – Easy to navigate and read.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Live Demo
+
+[Visit the Website]([https://ayur-heaven.vercel.app/])
+
+---
+
+## Tech Stack
+
+* HTML5
+* CSS3 (Flexbox, Grid, Responsive techniques)
+* JavaScript (Vanilla) or React *(update based on your implementation)*
+* Optional: Local JSON or REST API for data
+
+---
+
+## Folder Structure *(example)*
+
+```
+/public              # Static assets
+/src
+  /components        # Reusable UI components
+    Header.jsx       # Navigation/header section
+    PlantCard.jsx    # Card layout for displaying plant summaries
+    PlantDetail.jsx  # Detailed plant information view
+  /data
+    plants.json      # Medicinal plants database
+  App.jsx            # Main application component
+  index.jsx          # Entry point
+/package.json        # Project metadata and dependencies
+/README.md           # Project documentation
+```
+
+
+---
+
+## Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ManrajjiK/AyurHeaven
+cd AyurHeaven
+```
+
+2. Install dependencies *(if applicable)*:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+4. Open `http://localhost:3000` in your browser.
+
+If it’s a static HTML/CSS/JS project, simply open `index.html` in your browser or deploy it to a static hosting service.
+
+---
+
+## Usage
+
+* Use the search bar to find plants by name.
+* Click on a plant card to view detailed information.
+* Filter plants by category (e.g., digestive health, skin care, respiratory support).
+
+---
+
+## Data Sources & Disclaimer
+
+* Information is sourced from reputable books, research papers, and verified herbal knowledge platforms.
+* **Disclaimer:** This website is for educational purposes only. Always consult a certified healthcare professional before using any herbal remedy.
+
+---
+
+## Contributing
+
+Contributions are welcome:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add: <short message>"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## Contact
+
+* **Name:** Manraj Kewat
+* **Email:** [kewatmanraj797@gmail.com]
+* **GitHub:** [ManrajjiK]
+
+---
+
+**Short Description for Resume/Portfolio:**
+
+> *Virtual Herbal Garden – A responsive web app that offers detailed, searchable profiles of medicinal plants, including their uses, preparation methods, and precautions, built using modern web technologies.*
