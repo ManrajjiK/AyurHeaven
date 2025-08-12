@@ -1,36 +1,35 @@
-# Virtual Herbal Garden
+Virtual Herbal Garden
 
 A responsive frontend web application that provides detailed and accessible information about medicinal plants. The goal is to promote awareness, education, and appreciation for herbal knowledge while ensuring safe and responsible use.
 
----
+Features
 
-## Features
+Searchable and Filterable Plant Database – Easily find plants by common or scientific names.
 
-* **Searchable and Filterable Plant Database** – Easily find plants by common or scientific names.
-* **Detailed Plant Profiles** – Includes identification, uses, preparation methods, potential side effects, and precautions.
-* **Responsive Design** – Optimized for mobile, tablet, and desktop.
-* **Clean and Accessible UI** – Easy to navigate and read.
+Detailed Plant Profiles – Includes identification, uses, preparation methods, potential side effects, and precautions.
 
----
+Responsive Design – Optimized for mobile, tablet, and desktop.
 
-## Live Demo
+Clean and Accessible UI – Easy to navigate and read.
 
-[Visit the Website]([https://ayur-heaven.vercel.app/])
+Live Demo
 
----
+Visit the Website
 
-## Tech Stack
+Tech Stack
 
-* HTML5
-* CSS3 (Flexbox, Grid, Responsive techniques)
-* JavaScript (Vanilla) or React *(update based on your implementation)*
-* Optional: Local JSON or REST API for data
+HTML5
 
----
+CSS3 (Flexbox, Grid, Responsive techniques)
 
-## Folder Structure *(example)*
+JavaScript (React)
 
-```
+Vite – Fast build tool and development server
+
+Local JSON for plant data
+
+Folder Structure
+
 /public              # Static assets
 /src
   /components        # Reusable UI components
@@ -43,79 +42,60 @@ A responsive frontend web application that provides detailed and accessible info
   index.jsx          # Entry point
 /package.json        # Project metadata and dependencies
 /README.md           # Project documentation
-```
 
+Installation & Setup
 
----
+Clone the repository:
 
-## Installation & Setup
+git clone <your-repo-url>
+cd <repo-folder>
 
-1. Clone the repository:
+Install dependencies:
 
-```bash
-git clone https://github.com/ManrajjiK/AyurHeaven
-cd AyurHeaven
-```
-
-2. Install dependencies *(if applicable)*:
-
-```bash
 npm install
-```
 
-3. Start the development server:
+Start the development server:
 
-```bash
-npm start
-```
+npm run dev
 
-4. Open `http://localhost:3000` in your browser.
+Open the local development URL shown in your terminal (e.g., http://localhost:5173).
 
-If it’s a static HTML/CSS/JS project, simply open `index.html` in your browser or deploy it to a static hosting service.
+Usage
 
----
+Use the search bar to find plants by name.
 
-## Usage
+Click on a plant card to view detailed information.
 
-* Use the search bar to find plants by name.
-* Click on a plant card to view detailed information.
-* Filter plants by category (e.g., digestive health, skin care, respiratory support).
+Filter plants by category (e.g., digestive health, skin care, respiratory support).
 
----
+Data Sources & Disclaimer
 
-## Data Sources & Disclaimer
+Information is sourced from reputable books, research papers, and verified herbal knowledge platforms.
 
-* Information is sourced from reputable books, research papers, and verified herbal knowledge platforms.
-* **Disclaimer:** This website is for educational purposes only. Always consult a certified healthcare professional before using any herbal remedy.
+Disclaimer: This website is for educational purposes only. Always consult a certified healthcare professional before using any herbal remedy.
 
----
-
-## Contributing
+Contributing
 
 Contributions are welcome:
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add: <short message>"`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request.
+Fork the repository.
 
----
+Create a new branch: git checkout -b feature/your-feature
 
-## License
+Commit your changes: git commit -m "Add: <short message>"
 
-This project is licensed under the **MIT License**.
+Push to the branch: git push origin feature/your-feature
 
----
+Open a Pull Request.
 
-## Contact
+License
 
-* **Name:** Manraj Kewat
-* **Email:** [kewatmanraj797@gmail.com]
-* **GitHub:** [ManrajjiK]
+This project is licensed under the MIT License.
 
----
+Contact
 
-**Short Description for Resume/Portfolio:**
+Name: Manraj Kewat
 
-> *Virtual Herbal Garden – A responsive web app that offers detailed, searchable profiles of medicinal plants, including their uses, preparation methods, and precautions, built using modern web technologies.*
+Email: kewatmanraj797@gmail.com
+
+GitHub: ManrajjiK
