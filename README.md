@@ -108,7 +108,7 @@ This project is licensed under the **MIT License**.
 
 ## Contact
 
-* **Name:** Your Name
+* **Name:** Manraj Kewat
 * **Email:** [kewatmanraj797@gmail.com](mailto:kewatmanraj797@gmail.com)
 * **GitHub:** [ManrajjiK](https://github.com/ManrajjiK)
 
